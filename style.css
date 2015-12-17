@@ -176,6 +176,7 @@ body {
 article {
   margin-bottom: 25px;
 }
+
 .url {
   color: #006621;
   font-size: 14px;
@@ -191,9 +192,40 @@ article p {
   font-size: small;
 }
 
+.sublinks a {
+  font-size: small;
+}
+
+.related {
+  border-top: 1px solid #e4e4e4;
+  padding-top: 20px;
+  padding-bottom: 20;
+  width: 520px;
+}
+
+aside {
+  display: inline-block;
+  font-size: small;
+  margin-right: 20px;
+}
+
+
+aside a {
+  margin-top: 5px;
+}
+
+aside ul {
+  margin-left: 0;
+  list-style: none;
+}
+
+aside ul li {
+  margin-top: 8px;
+}
+
 /* Footer */
 
-footer {
+.primary-footer {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -206,27 +238,26 @@ footer {
   border-top: 1px solid #e4e4e4;
 }
 
-footer p, ul {
+.primary-footer p, ul {
   margin-left: 135px;
   margin-top: 23px;
 }
 
-footer ul {
+.primary-footer ul {
   list-style: none;
   margin-bottom: 5px;
 }
 
-footer li {
+.primary-footer li {
   margin-right: 30px;
   display: inline;
 }
 
-footer a {
+.primary-footer a {
   text-decoration: none;
   color: #999;
 }
 
-footer a:hover {
+.primary-footer a:hover {
   color: black;
 }
-/* Forms */
