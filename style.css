@@ -9,11 +9,19 @@ body {
   margin: 0 0 83px;
 }
 
+a{
+  cursor: pointer;
+}
+
 /* Typography */
 
-/* Header */
+body {
+  font-family: "Arial", sans-serif;
+}
 
-header {
+/* Headers */
+
+.primary {
   height: 59px;
   background-color: #f1f1f1;
   border-bottom: 1px solid #e5e5e5;
@@ -24,9 +32,8 @@ header {
   height: 30px;
   width: 90px;
   left: 15px;
-  top: 12px;
+  top: 15px;
   font-size: 20px;
-  font-family: "Arial", sans-serif;
   font-weight: bold;
 }
 
@@ -50,22 +57,138 @@ header {
   color: green;
 }
 
-header form {
+.search-form {
+  box-sizing: border-box;
+}
+
+.primary form {
   position: absolute;
   top: 12px;
   left: 125px;
   height: 40px;
-  width: 630px;
-
+  line-height: 14px;
+  display: inline-block;
 }
 
-header input[type="text"] {
-  height: 40px;
-  width: 590px;
+.primary input[type="text"] {
+  height: 39px;
+  width: 584px;
+  font-size: 13px;
+  border: 1px solid #e5e5e5;
+  padding: 0px;
+  font-weight: bold;
 }
-header input[type="submit"] {
-  height: 40px;
+
+.primary input[type="submit"] {
+  height: 36px;
   width: 40px;
+  border: 0px;
+  padding: 0px;
+  background-color: blue;
+}
+
+.right {
+  float: right;
+}
+
+.primary ul {
+  list-style: none;
+  color: #999;
+  font-size: 14px;
+}
+
+.primary li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.primary ul a {
+  text-decoration: none;
+  color: #999;
+}
+
+.primary ul a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.secondary {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.secondary li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.secondary a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.secondary a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.secondary .right {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+}
+
+/* Main results */
+
+.results {
+  margin-left: 152px;
+  margin-bottom: 20px;
+  width: 520px;
+}
+
+.results-header {
+  position: relative;
+  height: 60px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.ministats {
+  position: absolute;
+  top: 10px;
+}
+
+.results h1 {
+  font-size: 18px;
+}
+
+.results a {
+  text-decoration: none;
+}
+
+.results a:hover {
+  text-decoration: underline;
+}
+
+article {
+  margin-bottom: 25px;
+}
+.url {
+  color: #006621;
+  font-size: 14px;
+}
+
+article p {
+  margin-top: 4px;
+}
+
+.summary {
+  line-height: 18px;
+  color: #545454;
+  font-size: small;
 }
 
 /* Footer */
